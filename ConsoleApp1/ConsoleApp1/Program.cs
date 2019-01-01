@@ -12,14 +12,14 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
+
             do
             {
-                int caseSwitch = 1;
-
-                switch (caseSwitch)
+                int Select = Console.ReadLine();
+                switch (Select)
                 {
                     case 1:
-                        
+                        Console.WriteLine(" Thank You ");
                         break;
                     case 2:
                         
@@ -28,7 +28,7 @@ namespace ConsoleApp1
                         Console.WriteLine(" Thank You ");
                         break;
                 }
-            } while ( caseSwitc == 1);
+            } while (  Select == 1);
         }
 
     }
