@@ -8,28 +8,25 @@ namespace ConsoleApp1
 {
     class Program
     {
-        public static 
 
         static void Main(string[] args)
         {
+            int selection ;
+            Console.WriteLine(" Enter Numbers : ");
+            selection = Convert.ToInt16(Console.ReadLine());
 
-            do
+            switch (selection)
             {
-                int Select = Console.ReadLine();
-                switch (Select)
-                {
-                    case 1:
-                        Console.WriteLine(" Thank You ");
-                        break;
-                    case 2:
-                        
-                        break;
-                    default:
-                        Console.WriteLine(" Thank You ");
-                        break;
-                }
-            } while (  Select == 1);
+                case 1:
+                    Console.WriteLine("Vowel");
+                    break;
+                case 2:
+                    Console.WriteLine("Vowel");
+                    break;
+                default:
+                    Console.WriteLine("Not a vowel");
+                    break;
+            }
         }
-
     }
 }
